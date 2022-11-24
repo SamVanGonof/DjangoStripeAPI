@@ -4,7 +4,7 @@
 ### Прежде чем продолжить необходимо зарегистрироваться и авторизоваться на https://stripe.com
 Нужно зайти во вкладку - developers - -> API Keys, скопировать Public Key и Secret Key.
 
-1. `git clone `
+1. `git clone https://github.com/SamVanGonof/DjangoStripeAPI.git`
 2. В корневой папке проекта создать файл .env и заполнить его следующим:
    - `SECRET_KEY=<django ключ>`
    - `STRIPE_PUBLIC_KEY=<Publishable key с сайта stripe.com>`
